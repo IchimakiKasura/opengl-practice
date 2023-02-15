@@ -1,0 +1,12 @@
+#!/bin/bash
+#!/bin/sh
+
+if [ "$*" == "--d" ];
+then
+    "bin\Debug\net7.0\opengl practice.exe"
+fi
+
+if [ "$*" == "--r" ];
+then
+    "bin\Release\net7.0\opengl practice.exe"
+fi
